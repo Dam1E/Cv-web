@@ -1,62 +1,284 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title> Damilola Elelegwu</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Damilola Elelegwu — Network & Security Engineer specializing in networking, cybersecurity, cloud infrastructure, data centers, and automation.">
+<meta property="og:title" content="Damilola Elelegwu | Network & Security Engineer">
+<meta property="og:description" content="Network and Security Engineer — networking, cybersecurity, cloud infrastructure, data centers, and automation.">
+<meta property="og:type" content="website">
+<title>Damilola Elelegwu | Network & Security Engineer</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="CSS/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
-        <link rel="stylesheet" href="./CSS/styles.css">
-        <link rel="icon" href="favicon.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-    </head>
-    <body>
-    <div class="top-container">
-        <img class="top-cloud" src="./CSS/Images/cloud.png" alt="cloud-img">
-        <h1>I'm Damilola.</h1>
-        <h2> An <span class="pro">Information Technology</span> Analyst.</h2>
-        <img class="bottom-cloud" src="./CSS/Images/cloud.png" alt="cloud-img">
-        <img src="./CSS/Images/mountain.png" alt="mountain-img">
-    </div>
-    <div class="middle-container">
-  <div class="profile">
-    <img src="./CSS/Images/Passport3.jpg" class="dami"alt="Dami's-img">
-    <h2>Hello.</h2>
-    <p class="intro">I am an IT professional looking to change the world positively using technology.</p>
-  </div>
-  <hr>
-  <div class="skills">
-    <h2>My Skills.</h2>
-    <div class="skill-row">
-      <img class="skill-img-p" src="./CSS/Images/programming.png" alt="coding">
-      <h3>Programming</h3>
-      <p>I build applications and websites using python, HTML,CSS & Javascript.</p>
-    </div>
-    <div class="skill-row">
-      <img class="skill-img-r" src="./CSS/Images/routers and switches.jpg" alt="Network">
-      <h3>Networking(Routing&Switching)</h3>
-      <p>I enjoy seeing packets flow and troubleshooting networks.</p>
-    </div>
-      <div class="skill-row">
-      <img class="skill-img-c" src="./CSS/Images/hacker (1).png" alt="Network">
-      <h3>Cybersecurity</h3>
-      <p>Ensuring your systems and applications are secured🔒 using best practices.</p>
-    </div>
-  </div>
-  <hr>
-  <div class="contact-me">
-    <h2>Get In Touch</h2>
+<header class="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo">DE<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="2" y1="5" x2="20" y2="5"/><line x1="2" y1="11" x2="20" y2="11"/><line x1="2" y1="17" x2="20" y2="17"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="assets/resume.pdf" class="nav-resume" target="_blank" rel="noopener noreferrer">Resume</a></li>
+    </ul>
+  </nav>
+</header>
 
-    <p class="contact-message">If you have a project you want to get started, think you need my help with
-        something or just fancy saying hey, then get in touch.</p>
-    <a class="btn" href="mailto:krayyd@gmail.com">CONTACT ME</a>
-  </div>
-</div>
-<div class="bottom-container">
-  <a class="footer-link" href="https://www.linkedin.com/in/damielelegwu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BziMbvKA3SQqQlX0dCVtPrw%3D%3D">LinkedIn</a>
-  <!-- <a class="footer-link" href="https://twitter.com/krayy_D">Twitter</a> -->
-  <p class="copyright">© 2021 Damilola Elelegwu.</p>
-</div>
+<main>
 
-    </body>
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="prompt">$ whoami</p>
+        <h1>Damilola <span>Elelegwu</span></h1>
+        <h2>Network &amp; Security Engineer</h2>
+        <p class="hero-description">I build, troubleshoot, and secure enterprise infrastructure across networks, data centers, cloud environments, and security operations.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore my work</a>
+          <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Download resume</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/dam1e" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.5 0 12.3c0 5.44 3.44 10.05 8.2 11.68.6.11.82-.27.82-.6v-2.1c-3.34.75-4.04-1.65-4.04-1.65-.55-1.44-1.34-1.82-1.34-1.82-1.1-.77.08-.76.08-.76 1.21.09 1.85 1.28 1.85 1.28 1.08 1.9 2.84 1.35 3.53 1.03.11-.8.42-1.35.76-1.66-2.67-.31-5.47-1.38-5.47-6.15 0-1.36.47-2.47 1.24-3.34-.12-.31-.54-1.57.12-3.28 0 0 1.01-.33 3.3 1.28a11.2 11.2 0 0 1 6 0c2.29-1.6 3.3-1.28 3.3-1.28.66 1.7.24 2.97.12 3.28.77.87 1.24 1.98 1.24 3.34 0 4.78-2.8 5.83-5.48 6.14.43.38.81 1.13.81 2.29v3.39c0 .33.22.72.83.6C20.56 22.34 24 17.74 24 12.3 24 5.5 18.63 0 12 0z"/></svg>
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/damielelegwu" target="_blank" rel="noopener noreferrer">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.27 2.38 4.27 5.47v6.27zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="console-card">
+          <div class="console-header">
+            <span class="status-dot"></span> infrastructure online
+          </div>
+          <svg class="node-diagram" viewBox="0 0 300 90" aria-hidden="true">
+            <line x1="30" y1="45" x2="150" y2="20" class="trace"/>
+            <line x1="30" y1="45" x2="150" y2="70" class="trace"/>
+            <line x1="150" y1="20" x2="270" y2="45" class="trace"/>
+            <line x1="150" y1="70" x2="270" y2="45" class="trace"/>
+            <rect x="16" y="31" width="28" height="28" class="node-box"/>
+            <rect x="136" y="6" width="28" height="28" class="node-box"/>
+            <rect x="136" y="56" width="28" height="28" class="node-box"/>
+            <rect x="256" y="31" width="28" height="28" class="node-box node-main"/>
+          </svg>
+          <div class="node-labels">
+            <span>cloud</span><span>network</span><span>security</span>
+          </div>
+          <div class="terminal">
+            <p><span class="prompt-mark">$</span> whoami</p>
+            <p class="terminal-output">network-security-engineer</p>
+            <p><span class="prompt-mark">$</span> cat expertise.list</p>
+            <p class="terminal-output">networking | security | cloud | automation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">$ cat about.md</p>
+        <h2>Bridging networking, security, and infrastructure.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a Network &amp; Security Engineer with experience spanning enterprise networking, cybersecurity, data center operations, and IT infrastructure.</p>
+          <p>My career began in network engineering, where I developed hands-on experience supporting enterprise environments and troubleshooting complex network issues. I later expanded into cybersecurity, security analysis, automation, and infrastructure operations.</p>
+          <p>Today, I'm particularly interested in the intersection of secure networking, cloud infrastructure, automation, and intelligent security solutions.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><strong>MS</strong><span>Information Technology &mdash; Cybersecurity, Georgia Southern University</span></div>
+          <div class="stat-card"><strong>BEng</strong><span>Electrical &amp; Electronics Engineering, Landmark University</span></div>
+          <div class="stat-card"><strong>IEEE</strong><span>Published cybersecurity research, SoutheastCon 2024</span></div>
+          <div class="stat-card"><strong>7</strong><span>Active industry certifications</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dim" id="expertise">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="section-label">$ ls expertise/</p>
+        <h2>Technical expertise</h2>
+        <p>My experience sits at the intersection of infrastructure, security, and automation.</p>
+      </div>
+      <div class="expertise-grid">
+        <article class="expertise-card">
+          <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="5" cy="12" r="2.4"/><circle cx="19" cy="6" r="2.4"/><circle cx="19" cy="18" r="2.4"/><line x1="7.2" y1="11" x2="16.8" y2="7"/><line x1="7.2" y1="13" x2="16.8" y2="17"/></svg>
+          <h3>Network engineering</h3>
+          <p>Designing, troubleshooting, and supporting enterprise network infrastructure.</p>
+          <div class="tag-list"><span>OSPF</span><span>BGP</span><span>EIGRP</span><span>VLANs</span><span>VRF</span><span>HSRP</span></div>
+        </article>
+        <article class="expertise-card">
+          <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9.5 12l1.8 1.8 3.2-3.6"/></svg>
+          <h3>Cybersecurity</h3>
+          <p>Investigating security events, identifying threats, and implementing defensive security controls.</p>
+          <div class="tag-list"><span>SIEM</span><span>Incident response</span><span>Firewalls</span><span>Vulnerability analysis</span></div>
+        </article>
+        <article class="expertise-card">
+          <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6.5 17a4 4 0 0 1-.5-8 5.5 5.5 0 0 1 10.7-1.7A4.5 4.5 0 0 1 17.5 17h-11z"/></svg>
+          <h3>Cloud &amp; infrastructure</h3>
+          <p>Supporting resilient infrastructure across data center, cloud, Linux, and virtualization environments.</p>
+          <div class="tag-list"><span>AWS</span><span>Azure</span><span>Linux</span><span>VMware</span><span>Docker</span></div>
+        </article>
+        <article class="expertise-card">
+          <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="2.6"/><path d="M12 4v2.2M12 17.8V20M4 12h2.2M17.8 12H20M6.5 6.5l1.6 1.6M15.9 15.9l1.6 1.6M6.5 17.5l1.6-1.6M15.9 8.1l1.6-1.6"/></svg>
+          <h3>Automation</h3>
+          <p>Using programming and automation to reduce repetitive tasks and improve infrastructure operations.</p>
+          <div class="tag-list"><span>Python</span><span>Ansible</span><span>Bash</span><span>Netmiko</span><span>APIs</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-heading">
+        <p class="section-label">$ ls projects/</p>
+        <h2>Projects that show how I think and build.</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">01</span><span class="project-category">Cybersecurity</span></div>
+          <h3>AI-driven network behavioral detection</h3>
+          <p>A security research project exploring behavioral network analysis to identify suspicious activity associated with credential theft and keylogging attacks.</p>
+          <div class="project-tags"><span>Python</span><span>Machine learning</span><span>Network security</span><span>Linux</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">02</span><span class="project-category">Automation</span></div>
+          <h3>Self-healing secure network</h3>
+          <p>An experimental architecture combining security monitoring, automated decision-making, and network remediation to reduce response time during security incidents.</p>
+          <div class="project-tags"><span>Python</span><span>Ansible</span><span>Automation</span><span>Security</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">03</span><span class="project-category">Networking</span></div>
+          <h3>Enterprise campus network design</h3>
+          <p>Designed a resilient campus network architecture supporting thousands of users with redundant routing, segmentation, security, wireless, and centralized management.</p>
+          <div class="project-tags"><span>Cisco</span><span>OSPF</span><span>BGP</span><span>VLAN</span><span>QoS</span></div>
+        </article>
+        <article class="project-card">
+          <div class="project-top"><span class="project-number">04</span><span class="project-category">Network automation</span></div>
+          <h3>Network automation toolkit</h3>
+          <p>A collection of Python-based tools designed to automate network configuration, device information gathering, validation, and operational tasks.</p>
+          <div class="project-tags"><span>Python</span><span>Netmiko</span><span>APIs</span><span>Networking</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dim" id="experience">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="section-label">$ history --experience</p>
+        <h2>My professional journey</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-pin"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Current</span>
+            <h3>Data Center Technician</h3>
+            <h4>Amazon Web Services</h4>
+            <p>Supporting large-scale data center infrastructure through hardware break/fix, fiber troubleshooting, equipment maintenance, and server and network hardware operations.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-pin"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2024 &ndash; 2025</span>
+            <h3>IT Support Engineer</h3>
+            <h4>Motrex LLC</h4>
+            <p>Supported enterprise IT infrastructure, resolved technical issues, improved operational efficiency, and contributed to infrastructure availability.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-pin"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Information Security Analyst Intern</h3>
+            <h4>Millennium Management</h4>
+            <p>Supported security operations and developed Python automation to improve vulnerability and CVE reporting workflows.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-pin"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2018 &ndash; 2022</span>
+            <h3>Network Support Engineer</h3>
+            <h4>Cyberspace Network Limited</h4>
+            <p>Supported enterprise networking environments, troubleshooting connectivity issues and working with routing, switching, monitoring, and network operations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research">
+    <div class="container">
+      <div class="research-card">
+        <p class="section-label light">$ cat research.md</p>
+        <h2>A novel approach to detecting and mitigating keyloggers</h2>
+        <p>My cybersecurity research explored behavioral techniques for detecting user-space keyloggers on Linux systems, combining a Chrome extension with Python and Flask-based backend components.</p>
+        <p>The research was published through IEEE Xplore and presented at IEEE SoutheastCon 2024.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dim" id="certifications">
+    <div class="container">
+      <div class="section-heading centered">
+        <p class="section-label">$ gpg --list-certs</p>
+        <h2>Certifications &amp; credentials</h2>
+      </div>
+      <div class="certifications-grid">
+        <div class="certification-card"><strong>CCNP</strong><span>Cisco Certified Network Professional</span></div>
+        <div class="certification-card"><strong>CCNA</strong><span>Cisco Certified Network Associate</span></div>
+        <div class="certification-card"><strong>PCNSE</strong><span>Palo Alto Networks Certified Security Engineer</span></div>
+        <div class="certification-card"><strong>Security+</strong><span>CompTIA Security+</span></div>
+        <div class="certification-card"><strong>AWS-CP</strong><span>AWS Certified Cloud Practitioner</span></div>
+        <div class="certification-card"><strong>AZ-104</strong><span>Microsoft Azure Administrator</span></div>
+        <div class="certification-card"><strong>CC</strong><span>ISC2 Certified in Cybersecurity</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section" id="contact">
+    <div class="container contact-content">
+      <p class="section-label">$ contact --send</p>
+      <h2>Let's build something secure.</h2>
+      <p>I'm always interested in conversations around network engineering, cybersecurity, cloud infrastructure, automation, and infrastructure technology.</p>
+      <a href="mailto:krayyd@gmail.com" class="btn btn-primary">Send me an email</a>
+      <div class="social-links">
+        <a href="https://github.com/dam1e" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/damielelegwu" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Damilola Elelegwu. Built with HTML, CSS &amp; JavaScript.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
 </html>
